@@ -13,15 +13,15 @@ int main(){
 			cin>>A[i][j];
 		}
 	}
-	 mayor=A[0][0];
+	mayor=A[0][0];
 	for(int i=0; i<n; i++){
 		for (int j=0; j<m; j++){
 			if(A[i][j]>mayor){
 				mayor=A[i][j];	
 			}
-	} return mayor;
+	}
 	
 }
-	cout<<"La posicion del mayor elemento es: "<<mayor;
+	cout<<"Elemento mayor: "<<mayor;
 return 0;
 }
