@@ -4,7 +4,6 @@ int main(){
 	int A[100][100];
 	int n;
 	cin>>n;
-	cin>>m;
 	for (int i=0; i<n; i++){
 		for (int j=0; j<n; j++){
 			cout<<"Ingrese el valor en "<<i+1<<j+1<<": ";
